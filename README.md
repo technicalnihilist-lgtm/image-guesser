@@ -7,8 +7,8 @@ something that exists on this planet — a lion, a synthesizer, a biryani, a Bur
 iron, a moonscape — and you have to name it. Ships with **1,677 curated items** across **11 categories**
 and keeps pulling fresh ones live from Wikipedia.
 
-- **Android APK:** [`ImageGuesser.apk`](ImageGuesser.apk) — signed, 222 KB, Android 7.0+ (minSdk 24)
-- **Web / PWA:** open `index.html`, or enable GitHub Pages for the repo and play in any browser
+- **Android APK:** [download v1.0.0](https://github.com/technicalnihilist-lgtm/image-guesser/releases/latest/download/ImageGuesser.apk) — signed, 222 KB, Android 7.0+ (minSdk 24)
+- **Play in the browser:** <https://technicalnihilist-lgtm.github.io/image-guesser/> (installable PWA — add to home screen)
 - No accounts, no ads, no analytics, no trackers. Coins live on your device.
 
 ---
@@ -75,11 +75,11 @@ the Wikimedia Foundation. See [CREDITS.md](CREDITS.md) and [PRIVACY.md](PRIVACY.
 
 ## Install
 
-**Android** — download [`ImageGuesser.apk`](ImageGuesser.apk) and open it. Android will ask you to
+**Android** — download [`ImageGuesser.apk`](https://github.com/technicalnihilist-lgtm/image-guesser/releases/latest/download/ImageGuesser.apk) and open it. Android will ask you to
 allow installs from this source; the APK is signed with the project's own key (no Play Store, no
 services, no updates pushed behind your back).
 
-**Browser** — serve the folder (`python3 -m http.server`) or enable GitHub Pages. Chrome/Safari will
+**Browser** — open <https://technicalnihilist-lgtm.github.io/image-guesser/>, or serve the folder locally (`python3 -m http.server`). Chrome/Safari will
 offer "Add to Home screen", and the service worker caches the shell plus every image you have seen,
 so it opens instantly and starts even without a connection.
 
