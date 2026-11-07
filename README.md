@@ -11,21 +11,37 @@ and keeps pulling fresh ones live from Wikipedia.
 - **Play in the browser:** <https://technicalnihilist-lgtm.github.io/image-guesser/> (installable PWA — add to home screen)
 - No accounts, no ads, no analytics, no trackers. Coins live on your device.
 
+### App details
+
+| | |
+|---|---|
+| **Name** | Image Guesser |
+| **Package name** | `com.imageguesser.app` |
+| **Version** | 1.0.0 (versionCode 1) |
+| **Category** | Games — trivia / quiz |
+| **Author** | technicalnihilist-lgtm |
+| **Requires** | Android 7.0+ (minSdk 24), no GMS, no Play Services |
+| **Size** | 222 KB |
+| **Permissions** | INTERNET, ACCESS_NETWORK_STATE, VIBRATE |
+| **License** | MIT (code) — photos keep their own Wikimedia licenses |
+| **Icon** | [icon-512.png](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/icon-512.png) |
+| **APK** | [ImageGuesser.apk](https://github.com/technicalnihilist-lgtm/image-guesser/releases/latest/download/ImageGuesser.apk) |
+
 ---
 
 ## Screenshots
 
 | Home | The photo stays blurred… | …and clears when you answer |
 |---|---|---|
-| ![Home](screenshots/home.png) | ![Blurred question](screenshots/game-blurred.png) | ![Correct answer](screenshots/game-correct.png) |
+| ![Home](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/home.png) | ![Blurred question](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/game-blurred.png) | ![Correct answer](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/game-correct.png) |
 
 | Wrong answer | Settings | Credits & licensing |
 |---|---|---|
-| ![Wrong answer](screenshots/game-wrong.png) | ![Settings](screenshots/settings.png) | ![Credits](screenshots/credits.png) |
+| ![Wrong answer](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/game-wrong.png) | ![Settings](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/settings.png) | ![Credits](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/credits.png) |
 
 | Light mode | हिन्दी |
 |---|---|
-| ![Light settings](screenshots/settings-light.png) | ![Hindi home](screenshots/home-hindi.png) |
+| ![Light settings](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/settings-light.png) | ![Hindi home](https://raw.githubusercontent.com/technicalnihilist-lgtm/image-guesser/main/screenshots/home-hindi.png) |
 
 ---
 
