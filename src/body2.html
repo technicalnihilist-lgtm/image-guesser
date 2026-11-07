@@ -1,0 +1,515 @@
+<div id="aura" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="lgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b6bff"/><stop offset=".52" stop-color="#5b8bff"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="lgG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe8a3"/><stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <clipPath id="cpFrame"><rect x="20" y="23" width="56" height="43" rx="9"/></clipPath>
+    <symbol id="logo" viewBox="0 0 96 96">
+      <rect x="2.5" y="2.5" width="91" height="91" rx="26" fill="url(#lgA)"/>
+      <rect x="2.5" y="2.5" width="91" height="91" rx="26" fill="none" stroke="rgba(255,255,255,.42)" stroke-width="1.6"/>
+      <g clip-path="url(#cpFrame)">
+        <rect x="20" y="23" width="56" height="43" fill="#eef1ff"/>
+        <circle cx="35" cy="36" r="5.4" fill="#ffcf5c"/>
+        <path d="M12 74 L38 41 L53 59 L63 47 L86 74 Z" fill="#7c5cff" opacity=".92"/>
+        <path d="M20 74 L45 52 L61 68 L72 58 L88 74 Z" fill="#22d3ee" opacity=".8"/>
+      </g>
+      <rect x="20" y="23" width="56" height="43" rx="9" fill="none" stroke="rgba(255,255,255,.95)" stroke-width="3"/>
+      <circle cx="68" cy="68" r="16.5" fill="url(#lgG)" stroke="#fff" stroke-width="3.4"/>
+      <text x="68" y="69.5" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="900"
+            font-family="ui-sans-serif,system-ui,Arial" fill="#7a4400">?</text>
+    </symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-2.6-6.4M21 3v6h-6"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1.1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5l13 7.5-13 7.5z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M5 4.5l10 7.5L5 19.5z" fill="currentColor" stroke="none"/><path d="M19 4v16"/></symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M16 8.5a5 5 0 0 1 0 7M19 6a9 9 0 0 1 0 12"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><circle cx="7" cy="18" r="2.6"/><circle cx="18" cy="15.5" r="2.6"/><path d="M9.6 18V7l10.8-2.5v11"/></symbol>
+    <symbol id="i-vibe" viewBox="0 0 24 24"><rect x="8" y="3" width="8" height="18" rx="2.4"/><path d="M4 9v6M20 9v6M2 11v2M22 11v2"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></symbol>
+    <symbol id="i-blur" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.4 3.8 5.6 3.8 9s-1.3 6.6-3.8 9c-2.5-2.4-3.8-5.6-3.8-9S9.5 5.4 12 3z"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4.8A1.8 1.8 0 0 1 10.8 3h2.4A1.8 1.8 0 0 1 15 4.8V7M6.5 7l.8 12.2A2 2 0 0 0 9.3 21h5.4a2 2 0 0 0 2-1.8L17.5 7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7.5 3v6c0 4.5-3.1 8-7.5 9.5C7.6 20 4.5 16.5 4.5 12V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.6v.6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-9.4A4.1 4.1 0 0 1 12 8a4.1 4.1 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6.8C10.6 5.2 8.4 4.6 5 4.6v13.1c3.4 0 5.6.6 7 2.2 1.4-1.6 3.6-2.2 7-2.2V4.6c-3.4 0-5.6.6-7 2.2z"/><path d="M12 6.8v13.1"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l5 5 10-11"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-6.5 8 6.5v8.5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M9.5 20.5V14h5v6.5"/></symbol>
+    <symbol id="i-shop" viewBox="0 0 24 24"><path d="M4 8h16l-1.2 11.2a2 2 0 0 1-2 1.8H7.2a2 2 0 0 1-2-1.8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><path d="M3 9.5h18V14H3zM4.5 14v6.5h15V14M12 9.5v11"/><path d="M12 9.5S10.8 4 8.2 4a2.2 2.2 0 0 0 0 5.5zM12 9.5S13.2 4 15.8 4a2.2 2.2 0 0 1 0 5.5z"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.8"/><path d="M4.5 21a7.5 7.5 0 0 1 15 0"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 5.5H5.5A2.5 2.5 0 0 0 8 9M16 5.5h2.5A2.5 2.5 0 0 1 16 9M12 13v4M9 21h6M10 21v-2.2h4V21"/></symbol>
+    <symbol id="i-wheel" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l6.4 6.4M12 12l-6.4 6.4M12 12l6.4-6.4M12 12L5.6 5.6"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M3.5 8.5L12 4l8.5 4.5v7L12 20l-8.5-4.5z"/><path d="M3.5 8.5L12 13l8.5-4.5M12 13v7"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 3s5.5 4.5 5.5 9.5a5.5 5.5 0 0 1-11 0C6.5 9 9 7 9 7s.5 2.5 2 3.5c0-2.5 1-7.5 1-7.5z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.7l5.9-.8z"/></symbol>
+    <symbol id="i-crown" viewBox="0 0 24 24"><path d="M3 8l4.2 3L12 4l4.8 7L21 8l-1.6 10.5H4.6z"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4.5 13.5H11L10 22l8.5-11.5H12z"/></symbol>
+    <symbol id="i-hint" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.5.4.8 1 .8 1.6V17h5.4v-1.5c0-.6.3-1.2.8-1.6A6 6 0 0 0 12 3z"/></symbol>
+    <symbol id="i-skip" viewBox="0 0 24 24"><path d="M4 5l9 7-9 7zM19 5v14"/></symbol>
+    <symbol id="i-undo" viewBox="0 0 24 24"><path d="M4 10h9a5 5 0 0 1 0 10H8"/><path d="M4 10l4-4M4 10l4 4"/></symbol>
+    <symbol id="i-restart" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v5h-5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3.2 2"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15" rx="3"/><circle cx="8.5" cy="9.5" r="1.6"/><path d="M3.5 17l5-5 4 4 3-2.5 5 4.5"/></symbol>
+    <symbol id="i-diff" viewBox="0 0 24 24"><rect x="2.5" y="5" width="8.5" height="14" rx="2"/><rect x="13" y="5" width="8.5" height="14" rx="2"/><path d="M15.5 12h3.5"/></symbol>
+    <symbol id="i-tube" viewBox="0 0 24 24"><path d="M8 3h8v13a4 4 0 0 1-8 0z"/><path d="M8 10h8M8 13.5h8"/></symbol>
+    <symbol id="i-math" viewBox="0 0 24 24"><path d="M5 7h6M8 4v6M5 17h6M13 6l6 6M19 6l-6 6M13 18h6"/></symbol>
+    <symbol id="i-save" viewBox="0 0 24 24"><path d="M5 3.5h11L20 7v13.5H5z"/><path d="M8 3.5v6h7v-6M8 20.5v-6h8v6"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3M15.5 12v2.5"/></symbol>
+    <symbol id="i-av-fox" viewBox="0 0 24 24"><path d="M4 5l3 2h10l3-2-1 9a6 6 0 0 1-6 5 6 6 0 0 1-6-5z"/><path d="M9 11h.5M14.5 11h.5M12 14v1.5"/></symbol>
+    <symbol id="i-av-owl" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="9" cy="10" r="1.6"/><circle cx="15" cy="10" r="1.6"/><path d="M12 13l-1.5 2h3z"/></symbol>
+    <symbol id="i-av-bot" viewBox="0 0 24 24"><rect x="4.5" y="7" width="15" height="12" rx="4"/><path d="M12 3v4M9 13h.5M14.5 13h.5M9.5 16.5h5"/></symbol>
+    <symbol id="i-av-cat" viewBox="0 0 24 24"><path d="M5 9l1-5 4 3h4l4-3 1 5v5a6 6 0 0 1-12 0z"/><path d="M9.5 12h.5M14 12h.5M11 15h2"/></symbol>
+    <symbol id="i-av-astro" viewBox="0 0 24 24"><circle cx="12" cy="11" r="5"/><path d="M4 17.5c2.5 2 13.5 2 16 0M8.5 15l-2 5M15.5 15l2 5"/><path d="M9.8 10h.5M13.7 10h.5"/></symbol>
+    <symbol id="i-av-rocket" viewBox="0 0 24 24"><path d="M12 3c3 2 4.5 5.5 4.5 9L12 16l-4.5-4c0-3.5 1.5-7 4.5-9z"/><path d="M12 16v5M9 13l-3 2M15 13l3 2"/></symbol>
+    <symbol id="i-cloud-off" viewBox="0 0 24 24"><path d="M3 3l18 18"/><path d="M17.5 17.5H7a4 4 0 0 1-.6-7.96M8.5 5.6A6 6 0 0 1 18 10a3.6 3.6 0 0 1 2.4 5.2"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M16 9a4 4 0 0 1 0 6"/></symbol>
+    <symbol id="c-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+    <symbol id="c-paw" viewBox="0 0 24 24"><ellipse cx="7" cy="8" rx="2" ry="2.6"/><ellipse cx="12" cy="6.4" rx="2" ry="2.7"/><ellipse cx="17" cy="8" rx="2" ry="2.6"/><path d="M12 11c3 0 5.4 2.3 5.4 4.7 0 1.9-1.5 3.1-3.3 3.1-1 0-1.4-.3-2.1-.3s-1.1.3-2.1.3c-1.8 0-3.3-1.2-3.3-3.1C6.6 13.3 9 11 12 11z"/></symbol>
+    <symbol id="c-chip" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></symbol>
+    <symbol id="c-car" viewBox="0 0 24 24"><path d="M4 16v-3l2-5h12l2 5v3"/><path d="M3 16h18"/><circle cx="7.5" cy="17.5" r="1.8"/><circle cx="16.5" cy="17.5" r="1.8"/></symbol>
+    <symbol id="c-food" viewBox="0 0 24 24"><path d="M6 3v8a3 3 0 0 0 6 0V3M9 11v10"/><path d="M17 3c-1.6 1.4-2 3.6-2 6 0 2 .8 3 2 3s2-1 2-3c0-2.4-.4-4.6-2-6z"/><path d="M17 12v9"/></symbol>
+    <symbol id="c-leaf" viewBox="0 0 24 24"><path d="M20 4c0 8-5 12-11 12H5c0-7 5-12 11-12z"/><path d="M4 21c1-6 5-9 9-11"/></symbol>
+    <symbol id="c-column" viewBox="0 0 24 24"><path d="M4 20h16M6 20V8M10 20V8M14 20V8M18 20V8M3 8h18l-9-5z"/></symbol>
+    <symbol id="c-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L5.5 17A2.5 2.5 0 0 0 7.8 21h8.4a2.5 2.5 0 0 0 2.3-4L14 9V3"/><path d="M7.5 15h9"/></symbol>
+    <symbol id="c-city" viewBox="0 0 24 24"><path d="M3 21V9l5-3v15M8 21V11l6-3v13M14 21V13l6-2v10M3 21h18"/></symbol>
+    <symbol id="c-ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5l3.5 2.5-1.3 4h-4.4L8.5 10z"/></symbol>
+    <symbol id="c-house" viewBox="0 0 24 24"><path d="M4 11l8-6 8 6v9a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M9.5 21v-6h5v6"/></symbol>
+    <symbol id="c-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.4 0 2-1 2-2s-.7-1.6-.7-2.6c0-1.2 1-2.2 2.2-2.2H18a3 3 0 0 0 3-3c0-4.4-4-8.2-9-8.2z"/><circle cx="8" cy="10" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="7.6" r="1.2" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="c-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.4 2.4 3.6 5.6 3.6 9s-1.2 6.6-3.6 9c-2.4-2.4-3.6-5.6-3.6-9S9.6 5.4 12 3z"/></symbol>
+  </defs>
+</svg>
+
+<div id="app">
+
+  <!-- ============ SPLASH ============ -->
+  <section class="screen nonav on" id="splash">
+    <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px">
+      <div class="mark"><svg width="116" height="116"><use href="#logo"/></svg></div>
+      <div class="wordmark" style="font-size:35px"><b>IMAGE</b> <b>GUESSER</b></div>
+      <div class="tag" data-i18n="tagline">Guess the world</div>
+      <div class="loadbar"><i></i></div>
+      <div class="splash-note" data-i18n="loading">Loading items from Wikipedia…</div>
+    </div>
+  </section>
+
+  <!-- ============ HOME ============ -->
+  <section class="screen" id="home">
+    <div class="walletbar">
+      <button class="who" id="whoBtn">
+        <span class="av" id="homeAvatar"><svg><use href="#i-av-fox"/></svg></span>
+        <span class="txt"><b id="homeName">Player</b><span id="homeLvl">Level 1</span>
+          <span class="lvlbar"><i id="homeXp" style="width:10%"></i></span></span>
+      </button>
+      <div class="coinpill" id="coinHome"><span class="coin"></span><span class="cval">0</span></div>
+    </div>
+
+    <div class="sechead2" style="padding-bottom:8px">
+      <div class="wordmark" style="font-size:23px;text-align:left"><b>IMAGE</b> <b>GUESSER</b></div>
+      <button class="iconbtn" id="btnSettingsHome"><svg><use href="#i-gear"/></svg></button>
+    </div>
+
+    <div class="grid2">
+      <button class="modecard wide m1" data-mode="image">
+        <span class="glow"></span>
+        <span class="mic"><svg><use href="#i-image"/></svg></span>
+        <span style="flex:1;min-width:0">
+          <h3 data-i18n="modeImage">Image Guesser</h3>
+          <p data-i18n="modeImageSub">One photo, four names, ten coins.</p>
+          <span class="go"><span id="progImage">1,677 items</span> <svg width="12" height="12" style="stroke:currentColor;fill:none;stroke-width:2.4"><use href="#i-chev"/></svg></span>
+        </span>
+      </button>
+
+      <button class="modecard m2" data-mode="sound">
+        <span class="glow"></span>
+        <span class="mic"><svg><use href="#i-sound"/></svg></span>
+        <h3 data-i18n="modeSound">Sound Guesser</h3>
+        <p data-i18n="modeSoundSub">Name what you hear.</p>
+        <span class="go"><span id="progSound">37 clips</span> <svg width="12" height="12" style="stroke:currentColor;fill:none;stroke-width:2.4"><use href="#i-chev"/></svg></span>
+      </button>
+
+      <button class="modecard m3" data-mode="diff">
+        <span class="glow"></span>
+        <span class="mic"><svg><use href="#i-diff"/></svg></span>
+        <h3 data-i18n="modeDiff">Find the Difference</h3>
+        <p data-i18n="modeDiffSub">Spot every change.</p>
+        <span class="go"><span data-i18n="play">Play</span> <svg width="12" height="12" style="stroke:currentColor;fill:none;stroke-width:2.4"><use href="#i-chev"/></svg></span>
+      </button>
+
+      <button class="modecard m4" data-mode="sort">
+        <span class="glow"></span>
+        <span class="mic"><svg><use href="#i-tube"/></svg></span>
+        <h3 data-i18n="modeSort">Color Sort Master</h3>
+        <p data-i18n="modeSortSub">Sort the balls.</p>
+        <span class="go"><span data-i18n="play">Play</span> <svg width="12" height="12" style="stroke:currentColor;fill:none;stroke-width:2.4"><use href="#i-chev"/></svg></span>
+      </button>
+
+      <button class="modecard m5" data-mode="math">
+        <span class="glow"></span>
+        <span class="mic"><svg><use href="#i-math"/></svg></span>
+        <h3 data-i18n="modeMath">Math Master</h3>
+        <p data-i18n="modeMathSub">Fast brains win.</p>
+        <span class="go"><span data-i18n="play">Play</span> <svg width="12" height="12" style="stroke:currentColor;fill:none;stroke-width:2.4"><use href="#i-chev"/></svg></span>
+      </button>
+    </div>
+
+    <div class="quick">
+      <button id="qDaily"><span class="dot" id="dotDaily"></span><svg><use href="#i-gift"/></svg><span data-i18n="daily">Daily</span></button>
+      <button id="qSpin"><svg><use href="#i-wheel"/></svg><span data-i18n="spin">Spin</span></button>
+      <button id="qBoxes"><svg><use href="#i-box"/></svg><span data-i18n="boxes">Boxes</span></button>
+      <button id="qAch"><svg><use href="#i-trophy"/></svg><span data-i18n="achievements">Awards</span></button>
+    </div>
+
+    <div class="card mt12">
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="aic" style="width:34px;height:34px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(150deg,rgba(124,92,255,.4),rgba(34,211,238,.2));border:1px solid var(--line-2)">
+          <svg width="17" height="17" style="stroke:#fff;fill:none;stroke-width:1.9"><use href="#i-target"/></svg>
+        </div>
+        <div style="flex:1;min-width:0">
+          <b style="font-size:12.5px" data-i18n="dailyChallenge">Daily challenge</b>
+          <p class="mini" id="dailyChallengeSub">Play all five modes today for a bonus</p>
+        </div>
+        <button class="btn sm" id="btnDailyAll" style="width:auto;padding:0 14px" data-i18n="play">Play</button>
+      </div>
+      <div class="progress mt8"><i id="dailyProg" style="width:0%"></i></div>
+    </div>
+  </section>
+
+  <!-- ============ MODE 1: IMAGE ============ -->
+  <section class="screen nonav" id="mode-image">
+    <div class="gbar">
+      <button class="iconbtn" data-back><svg><use href="#i-back"/></svg></button>
+      <div class="gprog"><b id="qNum">Question 1</b><span id="qCat">All items</span></div>
+      <div class="coinpill" id="coinGame"><span class="coin"></span><span class="cval">0</span></div>
+      <button class="iconbtn" id="btnRefresh" aria-label="Refresh"><svg><use href="#i-refresh"/></svg></button>
+    </div>
+    <div class="imgcard veiled loading" id="imgcard">
+      <img id="qimg" alt="Item to identify" referrerpolicy="no-referrer">
+      <span class="tagpill" id="tagpill">Animals</span>
+      <div class="veil"><div class="q">?</div><div class="hint" data-i18n="tapReveal">Tap an answer to reveal the image</div></div>
+      <div class="errbox">
+        <svg><use href="#i-cloud-off"/></svg>
+        <div id="errmsg">Image could not be loaded</div>
+        <button class="ghost" id="btnImgRetry" style="height:38px;padding:0 16px;flex:none" data-i18n="retry">Retry</button>
+      </div>
+    </div>
+    <div class="prompt"><span data-i18n="whatIsThis">What is this item?</span></div>
+    <div class="answers" id="answers"></div>
+    <div class="reveal" id="reveal">
+      <div class="txt"><div class="name" id="revName">—</div><div class="meta" id="revMeta"></div></div>
+      <button class="nextbtn" id="btnNext"><span data-i18n="next">Next</span><svg width="15" height="15" style="stroke:none"><use href="#i-next"/></svg></button>
+    </div>
+  </section>
+
+  <!-- ============ MODE 2: SOUND ============ -->
+  <section class="screen nonav" id="mode-sound">
+    <div class="gbar">
+      <button class="iconbtn" data-back><svg><use href="#i-back"/></svg></button>
+      <div class="gprog"><b id="sNum">Sound 1</b><span id="sCat">All sounds</span></div>
+      <div class="coinpill" id="coinSound"><span class="coin"></span><span class="cval">0</span></div>
+      <button class="iconbtn" id="btnSoundSkip" aria-label="Skip"><svg><use href="#i-skip"/></svg></button>
+    </div>
+    <div class="soundstage">
+      <div class="bars" id="sbars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <button class="playbtn" id="btnPlay" aria-label="Play sound"><svg><use href="#i-play"/></svg></button>
+      <div class="mini" id="sHintText">Tap to play</div>
+      <div class="vol"><svg><use href="#i-volume"/></svg><input id="volSlider" type="range" min="0" max="1" step="0.05" value="0.9"></div>
+    </div>
+    <div class="prompt"><span data-i18n="whatMakesSound">What makes this sound?</span></div>
+    <div class="answers" id="sanswers"></div>
+    <div class="reveal" id="sreveal">
+      <div class="txt"><div class="name" id="srevName">—</div><div class="meta" id="srevMeta"></div></div>
+      <button class="nextbtn" id="btnSoundNext"><span data-i18n="next">Next</span><svg width="15" height="15" style="stroke:none"><use href="#i-next"/></svg></button>
+    </div>
+  </section>
+
+  <!-- ============ MODE 3: FIND THE DIFFERENCE ============ -->
+  <section class="screen nonav" id="mode-diff">
+    <div class="gbar">
+      <button class="iconbtn" data-back><svg><use href="#i-back"/></svg></button>
+      <div class="gprog"><b id="dTitle">Find the Difference</b><span id="dDiffLbl">5 differences</span></div>
+      <div class="coinpill" id="coinDiff"><span class="coin"></span><span class="cval">0</span></div>
+      <button class="iconbtn" id="btnDiffNew" aria-label="New puzzle"><svg><use href="#i-refresh"/></svg></button>
+    </div>
+    <div class="diffwrap" id="diffwrap">
+      <canvas id="dLeft"></canvas>
+      <canvas id="dRight"></canvas>
+    </div>
+    <div class="diffbar">
+      <div class="chipx"><svg width="14" height="14" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-target"/></svg>
+        <span><b id="dFound">0</b>/<span id="dTotal">5</span></span></div>
+      <div class="chipx"><svg width="14" height="14" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-clock"/></svg>
+        <b id="dTimer">2:00</b></div>
+      <div class="zoombar">
+        <button id="btnZoom" aria-label="Zoom">⤢</button>
+        <button id="btnDiffHint" aria-label="Hint"><svg width="16" height="16" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-hint"/></svg></button>
+        <button id="btnDiffRestart" aria-label="Restart"><svg width="16" height="16" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-restart"/></svg></button>
+      </div>
+    </div>
+    <div class="answers" id="diffdiff" style="grid-auto-rows:auto">
+      <div class="card" style="padding:12px">
+        <p class="mini" data-i18n="diffHow">Tap the photo on either side where you spot a change. Find them all before the timer runs out.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MODE 4: COLOR SORT ============ -->
+  <section class="screen nonav" id="mode-sort">
+    <div class="gbar">
+      <button class="iconbtn" data-back><svg><use href="#i-back"/></svg></button>
+      <div class="gprog"><b id="sortLevel">Level 1</b><span id="sortDiff">Easy · 3 colours</span></div>
+      <div class="coinpill" id="coinSort"><span class="coin"></span><span class="cval">0</span></div>
+      <button class="iconbtn" id="btnSortNew" aria-label="New puzzle"><svg><use href="#i-refresh"/></svg></button>
+    </div>
+    <div class="diffbar" style="margin-top:0">
+      <div class="chipx"><svg width="14" height="14" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-chart"/></svg>
+        <span data-i18n="moves">Moves</span> <b id="sortMoves">0</b></div>
+      <div class="chipx"><svg width="14" height="14" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-clock"/></svg>
+        <b id="sortTimer">0:00</b></div>
+      <div class="zoombar">
+        <button id="btnSortUndo" aria-label="Undo"><svg width="16" height="16" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-undo"/></svg></button>
+        <button id="btnSortHint" aria-label="Hint"><svg width="16" height="16" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-hint"/></svg></button>
+        <button id="btnSortRestart" aria-label="Restart"><svg width="16" height="16" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-restart"/></svg></button>
+      </div>
+    </div>
+    <div class="tubewrap" id="tubes"></div>
+    <div class="card mt12" style="padding:12px">
+      <p class="mini" data-i18n="sortHow">Tap a tube to lift its top ball, then tap another tube to drop it. Only same-colour or empty tubes accept a ball.</p>
+    </div>
+  </section>
+
+  <!-- ============ MODE 5: MATH ============ -->
+  <section class="screen nonav" id="mode-math">
+    <div class="gbar">
+      <button class="iconbtn" data-back><svg><use href="#i-back"/></svg></button>
+      <div class="gprog"><b id="mNum">Question 1</b><span id="mCat">Addition</span></div>
+      <div class="coinpill" id="coinMath"><span class="coin"></span><span class="cval">0</span></div>
+      <button class="iconbtn" id="btnMathSkip" aria-label="Skip"><svg><use href="#i-skip"/></svg></button>
+    </div>
+    <div class="mathq">
+      <div class="sub" id="mDiffLbl">Beginner</div>
+      <div class="qtext" id="mQuestion">2 + 2</div>
+      <div class="timerbar"><i id="mTimerBar" style="width:100%"></i></div>
+    </div>
+    <div class="answers" id="manswers"></div>
+    <div class="reveal" id="mreveal">
+      <div class="txt"><div class="name" id="mrevName">—</div><div class="meta" id="mrevMeta"></div></div>
+      <button class="nextbtn" id="btnMathNext"><span data-i18n="next">Next</span><svg width="15" height="15" style="stroke:none"><use href="#i-next"/></svg></button>
+    </div>
+  </section>
+
+  <!-- ============ SHOP ============ -->
+  <section class="screen" id="shop">
+    <div class="sechead2">
+      <h1 data-i18n="shop">Shop</h1>
+      <div class="coinpill"><span class="coin"></span><span class="cval">0</span></div>
+    </div>
+    <div class="tabs" id="shopTabs">
+      <button class="on" data-tab="boost">Boosters</button>
+      <button data-tab="look">Looks</button>
+      <button data-tab="owned">Owned</button>
+    </div>
+    <div id="shopBody"></div>
+  </section>
+
+  <!-- ============ REWARDS ============ -->
+  <section class="screen" id="rewards">
+    <div class="sechead2">
+      <h1 data-i18n="rewards">Rewards</h1>
+      <div class="coinpill"><span class="coin"></span><span class="cval">0</span></div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:9px">
+        <svg width="18" height="18" style="stroke:var(--coin);fill:none;stroke-width:1.9"><use href="#i-gift"/></svg>
+        <b style="font-size:13px;flex:1" data-i18n="daily">Daily reward</b>
+        <span class="pill gold" id="dailyStreakPill">Day 1</span>
+      </div>
+      <div class="cal" id="dailyCal"></div>
+      <button class="btn gold" id="btnClaimDaily" data-i18n="claim">Claim</button>
+      <p class="mini mt8 center" id="dailyNote">Come back tomorrow for the next reward.</p>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:9px">
+        <svg width="18" height="18" style="stroke:var(--cyan);fill:none;stroke-width:1.9"><use href="#i-wheel"/></svg>
+        <b style="font-size:13px;flex:1" data-i18n="spin">Spin wheel</b>
+        <span class="pill" id="spinPill">1 free</span>
+      </div>
+      <div class="wheelwrap">
+        <div class="wheelpin"></div>
+        <div class="wheel" id="wheel"><div class="hub" id="wheelHub">SPIN</div></div>
+      </div>
+      <button class="btn" id="btnSpin" data-i18n="spinNow">Spin</button>
+      <p class="mini mt8 center" id="spinNote">One free spin every day.</p>
+      <button class="btn ghost sm mt8" id="btnOdds">See reward chances</button>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:9px;margin-bottom:10px">
+        <svg width="18" height="18" style="stroke:var(--coin);fill:none;stroke-width:1.9"><use href="#i-box"/></svg>
+        <b style="font-size:13px;flex:1" data-i18n="boxes">Treasure boxes</b>
+      </div>
+      <div class="boxgrid" id="boxGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section class="screen" id="awards">
+    <div class="sechead2"><h1 data-i18n="achievements">Achievements</h1>
+      <div class="coinpill"><span class="coin"></span><span class="cval">0</span></div></div>
+    <div class="tabs" id="awardTabs">
+      <button class="on" data-tab="daily">Daily</button>
+      <button data-tab="weekly">Weekly</button>
+      <button data-tab="all">Achievements</button>
+    </div>
+    <div class="card" id="awardBody"></div>
+  </section>
+
+  <!-- ============ PROFILE ============ -->
+  <section class="screen" id="profile">
+    <div class="sechead2"><h1 data-i18n="profile">Profile</h1>
+      <div class="coinpill"><span class="coin"></span><span class="cval">0</span></div></div>
+    <div class="card center">
+      <div style="display:flex;justify-content:center"><span class="av big" id="profAvatar"><svg><use href="#i-av-fox"/></svg></span></div>
+      <h2 style="margin-top:10px;font-size:17px" id="profName">Player</h2>
+      <p class="mini" id="profLevel">Level 1 · 0 XP</p>
+      <div class="row2">
+        <button class="btn ghost sm" id="btnRename"><svg width="14" height="14" style="stroke:currentColor;fill:none;stroke-width:2"><use href="#i-user"/></svg> Rename</button>
+        <button class="btn ghost sm" id="btnLooks">Change look</button>
+      </div>
+    </div>
+    <div class="statgrid" id="profStats"></div>
+    <div class="card mt12">
+      <b style="font-size:13px" data-i18n="perMode">Per-mode records</b>
+      <div id="profModes" class="mt8"></div>
+    </div>
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:8px">
+        <b style="font-size:13px;flex:1" data-i18n="leaderboard">Leaderboard</b>
+        <button class="btn sm" id="btnLb" style="width:auto;padding:0 14px">Open</button>
+      </div>
+      <p class="mini mt8" id="lbTeaser">Your personal records, kept on this device.</p>
+    </div>
+  </section>
+
+  <!-- ============ LEADERBOARD ============ -->
+  <section class="screen" id="leaderboard">
+    <div class="sechead2"><button class="iconbtn" data-back><svg><use href="#i-back"/></svg></button>
+      <h1 data-i18n="leaderboard">Leaderboard</h1></div>
+    <div class="tabs" id="lbTabs">
+      <button class="on" data-tab="all">All time</button>
+      <button data-tab="week">This week</button>
+      <button data-tab="month">This month</button>
+    </div>
+    <div class="card" id="lbBody"></div>
+    <div class="card">
+      <p class="mini" id="lbNote"></p>
+    </div>
+  </section>
+
+  <!-- ============ SETTINGS ============ -->
+  <section class="screen" id="settings">
+    <div class="sechead2"><button class="iconbtn" data-back><svg><use href="#i-back"/></svg></button>
+      <h1 data-i18n="settings">Settings</h1></div>
+
+    <div class="grouplabel" data-i18n="audio">Audio &amp; haptics</div>
+    <div class="group">
+      <div class="row"><div class="ric"><svg><use href="#i-sound"/></svg></div>
+        <div class="rt"><b data-i18n="sound">Sound effects</b><span data-i18n="soundSub">Chimes for right and wrong</span></div>
+        <div class="sw on" data-toggle="sound" role="switch" tabindex="0"></div></div>
+      <div class="row"><div class="ric"><svg><use href="#i-music"/></svg></div>
+        <div class="rt"><b data-i18n="music">Music</b><span data-i18n="musicSub">Soft ambient background</span></div>
+        <div class="sw on" data-toggle="music" role="switch" tabindex="0"></div></div>
+      <div class="row"><div class="ric"><svg><use href="#i-vibe"/></svg></div>
+        <div class="rt"><b data-i18n="vibe">Vibration</b><span data-i18n="vibeSub">Haptic feedback on answers</span></div>
+        <div class="sw on" data-toggle="vibe" role="switch" tabindex="0"></div></div>
+    </div>
+
+    <div class="grouplabel" data-i18n="appearance">Appearance</div>
+    <div class="group">
+      <div class="row"><div class="ric"><svg><use href="#i-moon"/></svg></div>
+        <div class="rt"><b data-i18n="darkmode">Dark mode</b><span data-i18n="darkmodeSub">Easier on the eyes at night</span></div>
+        <div class="sw on" data-toggle="theme" role="switch" tabindex="0"></div></div>
+      <div class="row"><div class="ric"><svg><use href="#i-blur"/></svg></div>
+        <div class="rt"><b data-i18n="blurOpt">Blur image until answered</b><span data-i18n="blurSub">Reveal the photo when you pick</span></div>
+        <div class="sw on" data-toggle="blur" role="switch" tabindex="0"></div></div>
+      <div class="row"><div class="ric"><svg><use href="#i-chart"/></svg></div>
+        <div class="rt"><b data-i18n="graphics">Graphics quality</b><span data-i18n="graphicsSub">Lower it on slower phones</span></div>
+        <select class="langsel" id="graphicsSel">
+          <option value="high">High</option><option value="low">Low</option>
+        </select></div>
+      <div class="row"><div class="ric"><svg><use href="#i-globe"/></svg></div>
+        <div class="rt"><b data-i18n="language">Language</b><span data-i18n="languageSub">Interface language</span></div>
+        <select class="langsel" id="langsel">
+          <option value="en">English</option><option value="hi">हिन्दी</option><option value="bn">বাংলা</option>
+          <option value="ta">தமிழ்</option><option value="te">తెలుగు</option><option value="mr">मराठी</option>
+        </select></div>
+    </div>
+
+    <div class="grouplabel" data-i18n="more">More</div>
+    <div class="group">
+      <button class="row" id="rowHow"><div class="ric"><svg><use href="#i-book"/></svg></div>
+        <div class="rt"><b data-i18n="howto">How to play</b><span data-i18n="howtoSub">Rules and scoring</span></div>
+        <svg class="chev"><use href="#i-chev"/></svg></button>
+      <button class="row" id="rowBackup"><div class="ric"><svg><use href="#i-save"/></svg></div>
+        <div class="rt"><b data-i18n="backup">Backup &amp; restore</b><span data-i18n="backupSub">Export or import your save</span></div>
+        <svg class="chev"><use href="#i-chev"/></svg></button>
+      <button class="row" id="rowPrivacy"><div class="ric"><svg><use href="#i-shield"/></svg></div>
+        <div class="rt"><b data-i18n="privacy">Privacy Policy</b><span data-i18n="privacySub">What this game stores</span></div>
+        <svg class="chev"><use href="#i-chev"/></svg></button>
+      <button class="row" id="rowTerms"><div class="ric"><svg><use href="#i-key"/></svg></div>
+        <div class="rt"><b data-i18n="terms">Terms &amp; conditions</b><span data-i18n="termsSub">The short, fair version</span></div>
+        <svg class="chev"><use href="#i-chev"/></svg></button>
+      <button class="row" id="rowAbout"><div class="ric"><svg><use href="#i-info"/></svg></div>
+        <div class="rt"><b data-i18n="about">About Image Guesser</b><span id="verline">Version 2.0.0</span></div>
+        <svg class="chev"><use href="#i-chev"/></svg></button>
+      <button class="row" id="rowCredits"><div class="ric"><svg><use href="#i-heart"/></svg></div>
+        <div class="rt"><b data-i18n="credits">Credits</b><span data-i18n="creditsSub">Images, sources and licenses</span></div>
+        <svg class="chev"><use href="#i-chev"/></svg></button>
+    </div>
+
+    <div class="group">
+      <button class="row danger" id="rowReset"><div class="ric"><svg><use href="#i-trash"/></svg></div>
+        <div class="rt"><b data-i18n="reset">Reset game progress</b><span data-i18n="resetSub">Clears coins, streak and history</span></div>
+        <svg class="chev"><use href="#i-chev"/></svg></button>
+    </div>
+  </section>
+
+</div>
+
+<!-- bottom nav -->
+<nav class="bottomnav" id="nav" style="display:none">
+  <button data-nav="home" class="on"><svg><use href="#i-home"/></svg><span data-i18n="home">Home</span></button>
+  <button data-nav="shop"><svg><use href="#i-shop"/></svg><span data-i18n="shop">Shop</span></button>
+  <button data-nav="rewards"><svg><use href="#i-gift"/></svg><span data-i18n="rewards">Rewards</span></button>
+  <button data-nav="awards"><svg><use href="#i-trophy"/></svg><span data-i18n="achievements">Awards</span></button>
+  <button data-nav="profile"><svg><use href="#i-user"/></svg><span data-i18n="profile">Profile</span></button>
+</nav>
+
+<div id="scrim"></div>
+<div id="sheet" role="dialog" aria-modal="true">
+  <div class="grab"></div>
+  <div class="sh"><h2 id="shTitle">Title</h2><button class="iconbtn" id="shClose" aria-label="Close"><svg><use href="#i-x"/></svg></button></div>
+  <div class="body" id="shBody"></div>
+</div>
+<div id="reward" role="dialog" aria-modal="true">
+  <div class="box2">
+    <div class="ic"><svg><use href="#i-star"/></svg></div>
+    <h3 id="rwTitle">Reward</h3>
+    <p id="rwText">You got something nice</p>
+    <button class="btn gold" id="rwOk">Collect</button>
+  </div>
+</div>
+<div id="toast"></div>
+<div id="offline" data-i18n="offline">You are offline — showing saved questions</div>

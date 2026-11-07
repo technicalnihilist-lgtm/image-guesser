@@ -15,6 +15,13 @@ plus a native Android shell.
 - **[MediaWiki API documentation](https://www.mediawiki.org/wiki/API:Main_page)** — the public API this
   game queries at runtime (`action=query`, `prop=pageimages`, `prop=imageinfo`, `generator=random`).
 
+## Audio sources
+
+Sound Guesser plays recordings hosted on Wikimedia Commons. Every clip is credited inside the game —
+recordist, license and the original file page — under the item name after you answer. Recordists whose
+work appears include Xeno-canto contributors (bird calls), klankbeeld, InspectorJ, Gravity Sound and
+other Wikimedia volunteers. Licenses range from CC0 and public domain to CC BY-SA 4.0.
+
 ## Image creators and licenses
 
 The photographs on Wikimedia Commons are contributed by thousands of volunteer photographers,
@@ -28,6 +35,12 @@ CC BY-SA 3.0, CC BY 2.0, CC BY 3.0, CC0 and public domain, among others.
 
 To see an image's full license page, open the item on Wikipedia and follow the photo's file link, or
 search the file name on <https://commons.wikimedia.org/>.
+
+## Game systems
+
+Difference puzzles and colour-sort levels are generated on the device at play time — no third-party
+puzzle data is used. Maths questions are generated and answered in code. The spin wheel, treasure boxes
+and daily rewards use a local random generator with the probabilities published in the app.
 
 ## Fonts and assets
 

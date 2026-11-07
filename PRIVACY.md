@@ -23,7 +23,8 @@ control. Uninstalling the app, clearing app data, or using **Settings → Reset 
 To display a real photograph, the app requests data from:
 
 - **en.wikipedia.org** — the MediaWiki API, for item names, descriptions, random items and image credits,
-- **upload.wikimedia.org / thumb.wikimedia.org** — Wikimedia's image servers, for the photographs.
+- **upload.wikimedia.org / thumb.wikimedia.org** — Wikimedia's image and audio servers, for the
+  photographs and the sound clips.
 
 Those requests contain no personal information beyond what any web request carries (such as your IP
 address, which Wikimedia needs to serve the file, and your browser's user agent). Wikimedia's own
@@ -37,6 +38,11 @@ that kind.
 - **INTERNET** — to fetch photos and credits.
 - **ACCESS_NETWORK_STATE** — to show the "you are offline" notice.
 - **VIBRATE** — for haptic feedback, only if you leave Vibration switched on.
+
+## Leaderboard
+
+The leaderboard ranks your own runs, stored on this device. There is no server, no upload and no other
+player's data — nothing is shared and nothing is collected.
 
 ## Children
 
