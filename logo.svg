@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <defs>
+    <linearGradient id="lgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b6bff"/><stop offset=".52" stop-color="#5b8bff"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="lgG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe8a3"/><stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <clipPath id="cpFrame"><rect x="20" y="23" width="56" height="43" rx="9"/></clipPath>
+  </defs>
+  <rect x="2.5" y="2.5" width="91" height="91" rx="26" fill="url(#lgA)"/>
+  <rect x="2.5" y="2.5" width="91" height="91" rx="26" fill="none" stroke="rgba(255,255,255,.42)" stroke-width="1.6"/>
+  <g clip-path="url(#cpFrame)">
+    <rect x="20" y="23" width="56" height="43" fill="#eef1ff"/>
+    <circle cx="35" cy="36" r="5.4" fill="#ffcf5c"/>
+    <path d="M12 74 L38 41 L53 59 L63 47 L86 74 Z" fill="#7c5cff" opacity=".92"/>
+    <path d="M20 74 L45 52 L61 68 L72 58 L88 74 Z" fill="#22d3ee" opacity=".8"/>
+  </g>
+  <rect x="20" y="23" width="56" height="43" rx="9" fill="none" stroke="rgba(255,255,255,.95)" stroke-width="3"/>
+  <circle cx="68" cy="68" r="16.5" fill="url(#lgG)" stroke="#fff" stroke-width="3.4"/>
+  <text x="68" y="69.5" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="900"
+        font-family="ui-sans-serif,system-ui,Arial,Helvetica" fill="#7a4400">?</text>
+</svg>
