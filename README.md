@@ -163,3 +163,17 @@ Code: MIT (see [LICENSE](LICENSE)). Wikipedia text is CC BY-SA 4.0; each photogr
 its own license, shown in-app with the item. "Wikipedia" and "Wikimedia" are trademarks of the
 Wikimedia Foundation, used here only to describe the source of the content. This is an independent
 project — no partnership or endorsement is claimed.
+
+---
+
+## ☕ Donate / Buy me a coffee
+
+**Coming soon** — our donation options are on the way.
+
+| Platform | Status |
+| --- | --- |
+| Paytm | Coming soon |
+| PayPal | Coming soon |
+| GPay (Google Pay) | Coming soon |
+
+If you like our work, you can support us with a donation. We are bringing this very soon — **coming soon**.
